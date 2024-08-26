@@ -55,3 +55,44 @@ Buen proyecto!
 ¡Fenterlimescimesdaidenters, hais lobergraidober dentersbloberqufatenterair enterstenter menternsaijenter!
 ```
 
+
+
+## Documentacion del encriptador
+
+**Instalar dependencias**
+```
+npm i
+```
+
+**Configuracion del archivo .env**
+
+```
+EXPRESS_PORT = '5001'
+EXPRESS_HOST = 'localhost'
+```
+
+**Iniciar projecto**
+
+```
+npm run dev
+```
+
+**Tecnologias utilizadas**
+
+- Web Components: Utiliza la API de Web Components para crear un componente reutilizable encapsulado.
+
+- Shadow DOM: Aísla el estilo y el comportamiento del componente del resto del documento.
+
+- HTML5: Estructura del componente y el formulario.
+
+- CSS: Estiliza el componente (se asume que existe un archivo css/style.css).
+
+- JavaScript: Implementa la lógica de encriptación, desencriptación y manejo de eventos.
+
+**Importacion del componente**
+
+
+En el html importar de la siguiente manera:
+```
+<my-form-component></my-form-component>
+```
