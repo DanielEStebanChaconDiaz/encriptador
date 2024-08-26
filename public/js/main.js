@@ -1,4 +1,4 @@
-class MyFormComponent extends HTMLElement {
+class Encriptador extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: 'open' });
@@ -115,4 +115,4 @@ class MyFormComponent extends HTMLElement {
     }
 }
 
-customElements.define('my-form-component', MyFormComponent);
+customElements.define('my-form-component', Encriptador);
